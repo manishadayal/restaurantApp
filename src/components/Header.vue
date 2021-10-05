@@ -1,8 +1,8 @@
 <template>
     <div class="nav">
-        <a href="#">Home</a>
-        <a href="#">Add Resturant</a>
-        <a href="#">Update Resturant</a>
+        <router-link to="/">Home</router-link>
+        <router-link to="add">Add Restaurant</router-link>
+        <!--<router-link to="update">Update Restaurant</router-link>-->
         <a href="#">Logout</a>
     </div>
 </template>

@@ -21,7 +21,7 @@ body {
   text-align: center;
   color: #2c3e50;
 }
-.register input, .login input {
+.register input, .login input, .addRestaurant input, .updateRestaurant input {
     width: 300px;
     height: 30px;
     padding-left:20px;
@@ -31,7 +31,7 @@ body {
     margin-left: auto;
     border: 1px solid skyblue;
 }
-.register button, .login button {
+.register button, .login button, .addRestaurant button, .updateRestaurant button {
     width: 320px;
     border: 1px solid skyblue;
     background: skyblue;
